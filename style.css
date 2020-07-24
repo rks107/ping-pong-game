@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color:#f0f0f0;
+    height: 100vh;
+    width: 100vw;
+}
+/* ---- player 1 contol ----  */
+#top-handle{
+    position: absolute;
+    top:0;
+    width:250px;
+    height:24px;
+    margin: 0 auto;
+    left: calc(50% - 100px);
+    background-color: rgb(240, 107, 46);
+    border-radius: 20px;
+    /* padding: 4px; */
+}
+/* ---- player 2 contol ----  */
+#bottom-handle{
+    position:absolute;
+    bottom:0;
+    width:250px;
+    height:24px;
+    margin: 0 auto;
+    left: calc(50% - 100px);
+    background-color: rgb(240, 107, 46);
+    border-radius: 20px;
+    /* padding: 4px; */
+}
+.player-name{
+    display: block;
+    padding: 5px 5px 0px 5px;
+    color: #f0f0f0;
+    text-align: center;
+}
+/* ---- ball ---- */
+#ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: firebrick;
+    border-radius: 50%;
+    top: calc(100% - 44px);
+	left: calc(50% - 10px);
+}
+
+
+/* ---- Show game info---- */
+#info{
+    position: relative;
+    color: black;
+    text-align: center;
+    top: 25vh;
+}
+#show-winner-info{
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px grey;
+}
